@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/menu_item_1"
+    android:orderInCategory="1"
+    android:title="Çıkış"
+    android:icon="@drawable/ic_homeee"
+    app:showAsAction="ifRoom"
+    />
+    <item
+        android:id="@+id/menu_item_2"
+        android:title="Monofaze Hesapla"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:orderInCategory="3"
+        />
+    <item
+        android:id="@+id/menu_item_3"
+        android:title="Trifaze Oranı Hesapla"
+        android:orderInCategory="4"
+        />
+    <item
+        android:id="@+id/menu_item_4"
+        android:title="Trafo Güç Amper Değeri"
+        android:orderInCategory="5"
+        />
+    <item
+        android:id="@+id/menu_item_5"
+        android:title="Talep Güç Oranı Hesapla"
+        android:orderInCategory="6"
+        />
+    <item
+        android:id="@+id/menu_geri"
+        android:title="Geri"
+        android:orderInCategory="7"
+        android:icon="@drawable/ic_back"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_hesapmak"
+        android:title="Hesap Makinesi"
+        android:orderInCategory="2"
+        />
+
+
+
+
+
+</menu>
+
+

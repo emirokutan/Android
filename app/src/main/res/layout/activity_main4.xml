@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <Button
+        android:id="@+id/hesapla2"
+        android:layout_width="238dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="76dp"
+        android:onClick="hesapla2"
+        android:text="Trafo Güç Amper Değeri Hesapla"
+        app:layout_constraintEnd_toEndOf="@+id/trafoguc"
+        app:layout_constraintStart_toStartOf="@+id/trafoguc"
+        app:layout_constraintTop_toBottomOf="@+id/trafoguc" />
+
+    <EditText
+        android:id="@+id/trafoguc"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:hint="Güç Giriniz"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sonuc3"
+        android:layout_width="249dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="60dp"
+        android:text="Sonuç Burada"
+        android:textAlignment="center"
+        android:textColor="#1330CD"
+        android:textColorHint="#1130DA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/hesapla2"
+        app:layout_constraintStart_toStartOf="@+id/hesapla2"
+        app:layout_constraintTop_toBottomOf="@+id/hesapla2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
